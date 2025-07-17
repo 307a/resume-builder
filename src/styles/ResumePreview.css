@@ -1,0 +1,297 @@
+.resume-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px #0001;
+  padding: 36px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.resume-header-block {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.resume-name {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.resume-location {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.resume-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+.resume-hr {
+  border: none;
+  border-top: 2px solid #bbb;
+  margin: 18px 0 18px 0;
+}
+
+.resume-section-title {
+  font-weight: bold;
+  font-size: 1.15em;
+  margin-bottom: 8px;
+  margin-top: 18px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.resume-project {
+  margin-bottom: 18px;
+}
+
+.resume-project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: bold;
+  margin-bottom: 2px;
+  gap: 10px;
+}
+
+.resume-project-title {
+  font-size: 1.08em;
+  font-weight: 700;
+}
+
+.resume-project-date {
+  font-size: 1em;
+  color: #444;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.resume-project-tech {
+  font-size: 1em;
+  font-weight: 400;
+  color: #444;
+  margin-left: 8px;
+}
+
+.resume-project-desc {
+  margin: 0 0 0 24px;
+  padding: 0;
+  font-size: 0.98em;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.resume-project-desc li {
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.resume-cert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+.cert-left {
+  max-width: 70%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.cert-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.2rem;
+  text-align: left;
+}
+
+.cert-details {
+  font-style: italic;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+  color: #222;
+  text-align: left;
+}
+
+.cert-details a {
+  color: #1565c0;
+  text-decoration: underline;
+}
+
+.cert-right {
+  text-align: right;
+  min-width: 140px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+.certificates-section {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.certificates-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.certificates-section hr {
+  margin-bottom: 1rem;
+}
+
+.resume-skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.resume-skills-label {
+  width: 160px;
+  font-weight: bold;
+  padding-right: 16px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.resume-skills-table td {
+  padding: 4px 0;
+  font-size: 1.05em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.education-section {
+  margin: 2rem 0;
+}
+
+.education-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.education-section hr {
+  margin-bottom: 1rem;
+}
+
+.education-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+}
+
+.edu-left {
+  max-width: 60%;
+}
+
+.edu-right {
+  text-align: right;
+  min-width: 180px;
+}
+
+.edu-detail {
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.edu-cgpa {
+  font-style: italic;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.resume-actions button {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 22px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.resume-actions button:hover {
+  background: #2563eb;
+}
+
+.resume-actions select {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1.5px solid #3b82f6;
+  font-size: 1em;
+  margin-right: 8px;
+  color: #222;
+  background: #f8faff;
+  transition: border 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+.resume-actions select:focus {
+  border: 1.5px solid #2563eb;
+  box-shadow: 0 0 0 2px #b3d1ff44;
+}
+.resume-actions option {
+  color: #222;
+  background: #fff;
+}
+
+.resume-box {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border: 1.5px solid #bbb;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px #0001;
+  padding: 36px 40px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+  word-break: break-word;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .resume-container {
+    padding: 18px 4vw;
+  }
+}
+
+@media print {
+  body {
+    background: #fff !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .resume-container {
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw !important;
+  }
+  .resume-box {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw !important;
+  }
+}

@@ -1,0 +1,412 @@
+.classic-resume-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px #0001;
+  padding: 36px 40px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+  word-break: break-word;
+}
+
+.classic-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.classic-header-left {
+  flex: 2;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.classic-header-right {
+  flex: 1;
+  text-align: right;
+  font-size: 1em;
+  margin-top:28px;
+  padding: 0;
+}
+
+.classic-name {
+  font-size: 1.6em;
+  font-family: 'Georgia', serif;
+  color: #2a3990;
+  font-weight: bold;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 1.1;
+}
+
+.classic-contact {
+  font-size: 1em;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.classic-location {
+  font-size: 1.1em;
+  color: #222;
+}
+
+.classic-hr {
+  border: none;
+  border-top: 1px solid #888;
+  height: 0;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.classic-section {
+  margin-bottom: 18px;
+}
+
+.classic-section-title {
+  color: #1a237e;
+  font-size: 1.15em;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 18px;
+  letter-spacing: 0.5px;
+  border-bottom: 1.5px solid #1a237e;
+  padding-bottom: 2px;
+  text-align: left;
+}
+
+.classic-section-title.skills-title {
+  color: #2a3990;
+  font-size: 1.1em;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  border: none;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.classic-section-title.certs-title, .classic-section-title.edu-title {
+  color: #2a3990;
+  font-size: 1.1em;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  margin-top: 1.2em;
+  border: none;
+  padding-bottom: 0;
+  text-align: left;
+  border-top: 1px solid #888;
+  padding-top: 0.7em;
+}
+
+.classic-section-title.projects-title {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.classic-skills-block {
+  border-bottom: 1px solid #888;
+  padding: 0.7em 0 0.7em 0;
+  margin-bottom: 1.2em;
+}
+
+.classic-skills-list {
+  margin: 0 0 0 24px;
+  padding: 0;
+  list-style: disc;
+  list-style-position: outside;
+}
+
+.classic-skill-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2em;
+  font-size: 1em;
+}
+
+.classic-skill-label {
+  min-width: 190px;
+  max-width: 190px;
+  text-align: right;
+  font-weight: bold;
+  color: #1a237e;
+  margin-right: 12px;
+  font-family: 'Georgia', serif;
+  font-size: 1em;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.classic-skill-label span {
+  color: #1a237e;
+  font-weight: bold;
+}
+.classic-skill-value {
+  font-weight: normal;
+  color: #222;
+  font-size: 1em;
+  text-align: left;
+  flex: 1;
+  word-break: break-word;
+}
+
+.classic-job-block {
+  margin-bottom: 12px;
+}
+
+.classic-job-title {
+  font-weight: bold;
+  font-size: 1.08em;
+  color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.classic-job-date {
+  font-size: 1em;
+  color: #1a237e;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.classic-job-role {
+  font-size: 1em;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 2px;
+}
+
+.classic-job-desc {
+  margin: 0 0 0 24px;
+  padding: 0;
+  font-size: 0.98em;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.classic-job-desc li {
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.classic-project-block {
+  margin-bottom: 10px;
+}
+
+.classic-project-title {
+  font-weight: bold;
+  font-size: 1.08em;
+  color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.classic-project-date {
+  font-size: 0.9em;
+  color: #222 !important;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.classic-project-desc {
+  margin: 0 0 0 24px;
+  padding: 0;
+  font-size: 0.98em;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.classic-project-desc li {
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.classic-cert-block {
+  margin-bottom: 6px;
+}
+
+.classic-cert-title {
+  font-weight: bold;
+  font-size: 1.05em;
+  color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.classic-cert-date {
+  font-size: 1em;
+  color: #1a237e;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.classic-achievements-list {
+  margin: 0 0 0 24px;
+  padding: 0;
+  font-size: 0.98em;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.classic-achievements-list li {
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.classic-edu-block {
+  margin-bottom: 8px;
+}
+
+.classic-edu-title {
+  font-weight: bold;
+  font-size: 1.05em;
+  color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.classic-edu-date {
+  font-size: 1em;
+  color: #1a237e;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.classic-edu-detail {
+  font-style: italic;
+  font-size: 0.98em;
+  color: #444;
+}
+
+.classic-edu-school {
+  font-weight: bold;
+  color: #1a237e !important;
+  font-size: 1.08em;
+  font-family: 'Georgia', serif;
+}
+
+.classic-links {
+  font-size: 1em;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+}
+
+.classic-links div {
+  margin: 0;
+  padding: 0;
+}
+
+.classic-header-right div {
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.resume-actions button {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 22px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.resume-actions button:hover {
+  background: #2563eb;
+}
+
+.classic-certificates-list, .classic-education-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.classic-certificate-row, .classic-education-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 0.2em;
+  font-size: 1em;
+  width: 100%;
+}
+.classic-certificate-left, .classic-edu-left {
+  flex: 1;
+  color: #222;
+  text-align: left;
+}
+.classic-certificate-right, .classic-edu-right {
+  min-width: 180px;
+  text-align: right;
+  color: #222;
+  font-size: 1em;
+  font-style: normal;
+}
+.classic-certificate-right, .classic-edu-right, .classic-edu-location, .classic-edu-date {
+  color: #222 !important;
+}
+
+.resume-actions select {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1.5px solid #3b82f6;
+  font-size: 1em;
+  margin-right: 8px;
+  color: #222;
+  background: #f8faff;
+  transition: border 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+.resume-actions select:focus {
+  border: 1.5px solid #2563eb;
+  box-shadow: 0 0 0 2px #b3d1ff44;
+}
+.resume-actions option {
+  color: #222;
+  background: #fff;
+}
+
+@media (max-width: 900px) {
+  .classic-resume-container {
+    padding: 18px 4vw;
+  }
+  .classic-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .classic-header-right {
+    text-align: left;
+    margin-top: 0;
+  }
+}

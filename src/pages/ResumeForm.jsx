@@ -3,6 +3,7 @@ import * as Yup from "yup";
 import { useNavigate } from "react-router-dom";
 import { useResume } from "../context/ResumeContext";
 import "../App.css";
+import "../styles/ResumeForm.css";
 
 const validationSchema = Yup.object({
   name: Yup.string().required("Name is required"),
@@ -92,7 +93,7 @@ export default function ResumeForm() {
 
   return (
     <div className="form-container">
-      <h1 className="header">Resume Builder</h1>
+      <h1 className="header">Fill Your Details</h1>
       <Formik
         initialValues={resumeData.name ? resumeData : initialValues}
         validationSchema={validationSchema}

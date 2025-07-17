@@ -1,10 +1,21 @@
 import { useResume } from "../context/ResumeContext";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import "../App.css";
+import "../styles/ResumePreview.css";
 
 export default function ResumePreview() {
   const { resumeData } = useResume();
   const navigate = useNavigate();
+  const [format, setFormat] = useState("modern");
+
+  const handleFormatPreview = () => {
+    if (format === "modern") {
+      navigate("/preview");
+    } else {
+      navigate("/preview2");
+    }
+  };
 
   return (
     <div className="resume-box">
@@ -154,8 +165,12 @@ export default function ResumePreview() {
       )}
 
       <div className="resume-actions no-print">
-        <button onClick={() => window.print()}>Print / Save PDF</button>
-        <button onClick={() => navigate("/")}>Back to Edit</button>
+        <select value={format} onChange={e => setFormat(e.target.value)}>
+          <option value="modern">Specialized Format</option>
+          <option value="classic">General Format</option>
+        </select>
+        <button onClick={handleFormatPreview}>Preview</button>
+        <button onClick={() => navigate("/form")}>Back to Edit</button>
       </div>
     </div>
   );
