@@ -171,6 +171,7 @@ export default function ResumePreview() {
         </select>
         <button onClick={handleFormatPreview}>Preview</button>
         <button onClick={() => navigate("/form")}>Back to Edit</button>
+        <button onClick={() => window.print()}>Save as PDF</button>
       </div>
     </div>
   );
