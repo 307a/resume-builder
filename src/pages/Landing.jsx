@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../styles/landing.css";
+import "../styles/Landing.css";
 import resumelogo from "../assets/Screenshot 2025-07-12 165421.png";
 
 export default function Landing() {
